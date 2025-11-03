@@ -1,0 +1,15 @@
+# === Agent config (tối giản) ===
+retrieval:
+  top_k: 30         # lấy K ứng viên gần nhất
+  min_sim: 0.35     # ngưỡng cosine để giữ ví dụ (fallback: 0.25 nếu quá ít)
+
+paths:
+  raw_data_dir: "data/raw"
+  date_train_file: "data/raw/date_training_dataset.txt"
+  date_test_file: "data/raw/date_public_test.txt"
+  duration_train_file: "data/raw/duration_training_dataset.txt"
+  duration_test_file: "data/raw/duration_public_test.txt"
+  duration_test_file_private: "data/raw/private_test.txt"
+
+  output_date: "results/predictions/date_arithmetic/results.txt"
+  output_duration: "results/predictions/duration_qa/results.txt"
