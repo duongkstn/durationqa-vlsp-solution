@@ -4,6 +4,8 @@
 **Competition:** [https://vlsp.org.vn/vlsp2025/eval/tempqa](https://vlsp.org.vn/vlsp2025/eval/tempqa)
  
 **Paper:** **Retrieval-Guided Fine-tuning for Vietnamese Event Duration Question Answering** (Duong Nguyen Dao, Thanh Xuan Nguyen)
+
+Link paper: https://aclanthology.org/2025.vlsp-1.37/
  
 **Presentation:** [https://www.youtube.com/watch?v=-klcvd7Ak8Q](https://www.youtube.com/watch?v=-klcvd7Ak8Q)
 
@@ -68,3 +70,25 @@ Output files are saved under `submit/inference_*.csv`.
 - To submit on AIHub, zip the final result:  
   ```bash
   zip -r results.zip results.txt
+
+## Citation
+
+If you find our work helpful, feel free to give us a cite.
+
+```
+@inproceedings{dao-nguyen-2025-retrieval,
+    title = "Retrieval-Guided Fine-tuning for {V}ietnamese Event Duration Question Answering",
+    author = "Dao, Duong Nguyen  and
+      Nguyen, Thanh Xuan",
+    editor = "Mai, Luong Chi  and
+      Huyen, Nguyen Thi Minh  and
+      Trang, Nguyen Thi Thu",
+    booktitle = "Proceedings of the 11th International Workshop on Vietnamese Language and Speech Processing",
+    month = oct,
+    year = "2025",
+    address = "Hanoi, Vietnam",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.vlsp-1.37/",
+    pages = "306--315"
+}
+```
